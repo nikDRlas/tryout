@@ -26,15 +26,35 @@ h1{
 .btc{
     width: 10%;
     float: left;
+    animation: rotation1 2.5s infinite linear;
 }
 
 .ltc{
     float: right;
     width: 10%;
+    animation: rotation0 2.5s infinite linear;
 }
 
 nav {
     border: 1px solid black;
     
 }
+
+@keyframes rotation0 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-359deg);
+    }
+  }
+
+  @keyframes rotation1 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
 
