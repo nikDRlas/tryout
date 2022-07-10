@@ -1,4 +1,40 @@
+body{
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+.container{
+    display: inline;
+    flex-wrap: flex;
+   
+}
+
+header{
+    text-align: center;
+    border: white 2px solid;
+    width: 75%;
+    margin: auto;
+    display: block;
+}
+
+h1{
+    border: 1px solid black;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.btc{
+    width: 10%;
+    float: left;
+}
+
+.ltc{
+    float: right;
+    width: 10%;
+}
+
 nav {
     border: 1px solid black;
-     background-color: brown;
+    
 }
+
