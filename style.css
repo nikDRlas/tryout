@@ -1,6 +1,5 @@
 body{
-    background-color: dimgray;
-
+    background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
 }
 
 .container{
@@ -15,17 +14,13 @@ header{
     margin: auto;
     display: block;
     font-family: 'Splash';
-    
-    
+    color: white;
 
-
+    
 }
 
 .head{
-    background: #2513CF;
-    background: linear-gradient(to right, #2513CF 0%, #CF136B 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+   
     
 }
 h1{
@@ -59,13 +54,75 @@ h3{
 
 .nav-bar {
   
-   text-align:center;
-   word-spacing: 4000%;
+    text-align:center;
+    word-spacing: 4500%;
     border: solid dimgrey 1px;
     margin-top: 1.5rem;
+  
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Splash', cursive;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+    margin-left: 4rem;
+}
+
+.picture {
+    width: 45%;
+    
+
+}
+
+.picture > img {
+   width: 100%;
+}
+
+
+
+.exchange{
+    border: 3px solid white;
+    width: 40%;
+    text-align: center;
+    margin-left: 6rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#from, #to {
+    width: 20%;
+    height: 40px;
+    -moz-padding-start: calc(10px - 3px);
+    padding-left: 10px;
+    background: url(fff-0-2.png) repeat;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    border-radius: 3px;
+    outline: none;
+    
+    
+
+}
+
+input[type="number"]{
+    width: 20%;
+    height: 40px;
+    background: url(fff-0-2.png) repeat;
    
 }
 
+.first, .second{
+  
+    border: 1px solid black;
+}
 
 @keyframes rotation0 {
     from {
